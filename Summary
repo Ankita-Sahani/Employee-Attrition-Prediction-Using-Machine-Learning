@@ -1,0 +1,41 @@
+# Executive Summary
+
+An analysis was conducted on employee attrition data containing information from 1,470 employees to
+identify the key factors influencing employee turnover and to provide actionable recommendations for
+improving retention.
+The overall attrition rate was 16.1%, indicating that approximately one in six employees left the
+organization. The findings reveal that attrition is not evenly distributed across the workforce and is
+concentrated within specific departments, job roles, and employee groups.
+The Human Resources and Sales departments experienced the highest employee turnover rates. Among
+job roles, Sales Representatives and Laboratory Technicians showed the greatest likelihood of leaving
+the organization. Employees in these positions may require targeted retention strategies and career
+development support.
+Compensation also plays an important role in retention. Employees who left the company generally
+earned lower salaries compared to those who remained. However, salary was not the only contributing
+factor. Work-life balance emerged as a significant driver of employee satisfaction and retention.
+Employees reporting poor work-life balance were considerably more likely to leave the organization.
+Another important finding was that attrition was highest during the first two years of employment,
+suggesting that onboarding, training, and early-career engagement programs should be strengthened. A
+smaller increase in attrition was also observed among employees with approximately seven to eight
+years of service, indicating a potential need for mid-career growth opportunities and advancement
+pathways.
+A predictive model was developed to identify employees who may be at risk of leaving. The model
+demonstrated strong capability in detecting potential attrition cases, enabling HR teams to take
+proactive retention measures before employees decide to resign.
+
+# Key Recommendations
+1. Strengthen onboarding and mentoring programs for new employees.
+2. Improve work-life balance initiatives through flexible work arrangements and employee
+wellness programs.
+3. Review compensation and recognition strategies for high-risk job roles.
+4. Focus retention efforts on the Sales and Human Resources departments.
+5. Create clear career progression and development opportunities, particularly for employees in
+early and mid-career stages.
+6. Monitor employees who frequently work overtime, as excessive workload may increase the
+likelihood of attrition.
+
+# Conclusion
+Employee attrition is influenced by a combination of compensation, work-life balance, job role,
+department, and career progression opportunities. By implementing targeted retention strategies and
+leveraging predictive analytics, the organization can reduce turnover, improve employee satisfaction,
+and retain valuable talent more effectively.
