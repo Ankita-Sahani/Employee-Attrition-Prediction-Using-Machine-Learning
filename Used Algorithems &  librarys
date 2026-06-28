@@ -1,0 +1,137 @@
+# Employee Attrition Prediction using Machine Learning
+
+## 📌 Project Overview
+This project predicts employee attrition using Machine Learning techniques on the IBM HR Analytics Employee Attrition & Performance dataset. The goal is to identify employees who are likely to leave the organization and provide HR with actionable insights to improve employee retention.
+
+---
+
+## 📂 Dataset
+**Dataset Name:** IBM HR Analytics Employee Attrition & Performance
+
+The dataset contains **1,470 employee records** with **35 features**, including employee demographics, job information, salary, work experience, job satisfaction, overtime, work-life balance, and performance-related attributes.
+
+**Target Variable:**
+- **Attrition**
+  - Yes = Employee Left
+  - No = Employee Stayed
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Google Colab
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+---
+
+## 📚 Libraries Used
+
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
+from sklearn.metrics import (
+    accuracy_score,
+    precision_score,
+    recall_score,
+    f1_score,
+    roc_auc_score,
+    classification_report,
+    ConfusionMatrixDisplay,
+    RocCurveDisplay
+)
+```
+
+---
+
+## 🤖 Machine Learning Algorithms Used
+
+### 1. Logistic Regression
+- Binary classification algorithm
+- Best-performing model in this project
+- High Recall and ROC-AUC score
+
+### 2. Random Forest Classifier
+- Ensemble learning algorithm
+- Uses multiple decision trees
+- Provides feature importance
+
+### 3. Gradient Boosting Classifier
+- Boosting algorithm
+- Sequentially improves prediction performance
+- High accuracy with strong predictive capability
+
+---
+
+## 🔄 Data Preprocessing
+
+- Missing value checking
+- Removing unnecessary columns
+- Encoding target variable
+- One-Hot Encoding
+- Feature Scaling using StandardScaler
+- Train-Test Split (80:20)
+
+---
+
+## 📊 Exploratory Data Analysis (EDA)
+
+- Attrition by Department
+- Attrition by Job Role
+- Monthly Income vs Attrition
+- Work-Life Balance vs Attrition
+- Years at Company vs Attrition
+
+---
+
+## 📈 Model Evaluation Metrics
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- ROC-AUC Score
+- Confusion Matrix
+- ROC Curve
+
+---
+
+## 📌 Results
+
+Among all three models, **Logistic Regression** achieved the best overall performance for employee attrition prediction due to its higher Recall and ROC-AUC score, making it suitable for identifying employees at risk of leaving.
+
+---
+
+## 💡 Business Insights
+
+- Sales and HR departments show higher attrition.
+- Employees with lower monthly income are more likely to leave.
+- Poor work-life balance increases attrition risk.
+- Overtime is a major factor affecting employee retention.
+- New employees (0–2 years) have the highest attrition rate.
+
+---
+
+## 🚀 Future Improvements
+
+- Apply advanced ensemble models such as XGBoost and LightGBM.
+- Handle class imbalance using SMOTE.
+- Deploy the model using Flask or Streamlit.
+- Integrate explainable AI techniques such as SHAP or LIME.
+
+---
+
+## 👩‍💻 Author
+
+**Ankita Sahani**
